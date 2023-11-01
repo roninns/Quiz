@@ -1,0 +1,42 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toast_layout_root"
+    app:cardCornerRadius="15dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#80000000">
+
+        <LinearLayout
+            android:padding="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <TextView android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Нажмите еще раз"
+                    android:textColor="#FFF" />
+
+                <ImageView android:id="@+id/video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="1dp"
+
+                    android:src="@drawable/ic_back"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@string/image" />
+
+                <TextView android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#FFF"
+                    android:text="для выхода" />
+
+
+        </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    tools:context=".cleanarch.MainActivity">
+
+
+    <fragment
+        android:id="@+id/fragment_container"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineAM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.935" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/bottomBarLayout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/guidelineAM"
+                android:layout_height="0dp">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:background="@color/indicator_not_selected" />
+
+<!--
+                <nl.joery.animatedbottombar.AnimatedBottomBar
+                    android:id="@+id/bottom_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="@color/bottom_menu_background"
+                    app:abb_indicatorAppearance="round"
+                    app:abb_indicatorColor="@color/main_color"
+                    app:abb_indicatorHeight="3dp"
+                    app:abb_indicatorLocation="top"
+                    app:abb_indicatorMargin="16dp"
+                    app:abb_rippleColor="#81454343"
+                    app:abb_rippleEnabled="true"
+                    app:abb_selectedTabType="text"
+                    app:abb_tabColor="@color/icon_color"
+                    app:abb_tabColorSelected="@color/main_color"
+                    app:abb_tabs="@menu/bottom_menu"
+                    app:abb_textStyle="normal"
+
+                    />
+-->
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:backgroundColor="@color/bottom_menu_background"
+                    app:menu="@menu/bottom_menu"
+                    app:itemIconSize="20dp"
+                    android:animationCache="true"
+
+                    app:itemIconTint="@color/purple_500"/>
+<!--                    app:menu="@menu/bottom_menu"-->
+<!--                    app:duration="300"-->
+<!--                    app:itemPadding="4dp"-->
+<!--                    app:iconSize="20sp"-->
+<!--                    app:indicatorColor="@color/ripple_transparent"-->
+<!--                    app:iconTintActive="@color/main_color" />-->
+
+<!--                <me.ibrahimsn.lib.SmoothBottomBar-->
+<!--                    android:id="@+id/bottomBar"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    app:backgroundColor="@color/bottom_menu_background"-->
+<!--                    app:menu="@menu/bottom_menu"-->
+<!--                    app:duration="300"-->
+<!--                    app:itemPadding="4dp"-->
+<!--                    app:iconSize="20sp"-->
+<!--                    app:indicatorColor="@color/ripple_transparent"-->
+<!--                    app:iconTintActive="@color/main_color" />-->
+            </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

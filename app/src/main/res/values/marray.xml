@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="marray">
+        <item>Movie!</item>
+        <item>Movie2</item>
+        <item>Movie3</item>
+        <item>Movie4</item>
+        <item>Movie5</item>
+    </string-array>
+</resources>

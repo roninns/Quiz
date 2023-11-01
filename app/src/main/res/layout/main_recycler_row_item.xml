@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/layout_background">
+
+    <TextView
+        android:id="@+id/item_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_dimens"
+        android:layout_marginStart="@dimen/start_dimension"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/bottom_dimens"
+        app:layout_constraintBottom_toTopOf="@+id/item_recycler"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/item_recycler"
+        android:layout_width="0dp"
+        app:spanCount="1"
+        android:layout_marginStart="@dimen/start_dimension"
+        android:clipToPadding="false"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+<!--    Либо так, либо можно просто использовать его класс-->
+<!--    <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView-->
+<!--        android:id="@+id/item_recycler"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:msrv_gravity="start"-->
+<!--        app:msrv_interval="1"-->
+<!--        app:msrv_speed_ms_per_inch="500"-->
+<!--        android:layout_marginStart="@dimen/start_dimension"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"/>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

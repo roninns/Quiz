@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/testFragment">
+
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.xmolnia.vicQuiz.activities.Profile"
+        android:label="@string/profile_tab"
+        tools:layout="@layout/profile">
+
+
+        <action
+            android:id="@+id/action_profileFragment_to_testFragment"
+            app:destination="@id/testFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_in_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.xmolnia.vicQuiz.activities.Tests"
+        android:label="@string/tests_tab"
+        tools:layout="@layout/tests">
+        <action
+            android:id="@+id/action_testFragment_to_movieFragment"
+            app:destination="@id/movieFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_testFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_in_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.xmolnia.vicQuiz.activities.Movie"
+        android:label="@string/movie_tab">
+
+        <action
+            android:id="@+id/action_movieFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_movieFragment_to_testFragment"
+            app:destination="@id/testFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_in_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.xmolnia.vicQuiz.activities.Settings"
+        android:label="@string/settings_tab">
+        <action
+            android:id="@+id/action_settingsFragment_to_movieFragment2"
+            app:destination="@id/movieFragment"
+            app:enterAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+</navigation>

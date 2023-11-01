@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "205402529025",
+    "firebase_url": "https://vicquiz-default-rtdb.firebaseio.com",
+    "project_id": "vicquiz",
+    "storage_bucket": "vicquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205402529025:android:10a8ec4a887af15a2d4f00",
+        "android_client_info": {
+          "package_name": "com.xmolnia.vicQuiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205402529025-8713fenbjnf2dmcb7na2n3805laoca21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xmolnia.vicQuiz",
+            "certificate_hash": "a6944277951032202adebc130ac7b0d807a660fe"
+          }
+        },
+        {
+          "client_id": "205402529025-d7041jgudtb8is91cusiduq395armbmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xmolnia.vicQuiz",
+            "certificate_hash": "db00a7ceee8aa4772f403d2f8bc2787fc3283c83"
+          }
+        },
+        {
+          "client_id": "205402529025-ik53b3cav0ida6ppkt85jh4pbkj6lv7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xmolnia.vicQuiz",
+            "certificate_hash": "4fb53a379f83c13fffe41faee4adde254ff7043a"
+          }
+        },
+        {
+          "client_id": "205402529025-1am8sfhg0oh943slnqo3iaj0550ebdm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoSgoOH430TbG7MTQpUqXVE30sle-b36o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205402529025-1am8sfhg0oh943slnqo3iaj0550ebdm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

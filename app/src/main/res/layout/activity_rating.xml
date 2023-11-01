@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rating_layout"
+    android:background="@color/layout_background"
+    android:orientation="horizontal"
+    tools:context=".activities.Rating">
+
+
+
+
+
+
+
+            <LinearLayout
+                android:background="@drawable/round_layout_color"
+                android:id="@+id/toolBar"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="30dp"
+                    android:layout_gravity="start|center"
+                    android:layout_height="30dp"
+                    android:elevation="10dp"
+                    android:background="@drawable/ic_left"
+                    android:textColor="@color/tertiary_text"
+                    android:onClick="backClick"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:fontFamily="@font/graphiklcg_regular"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMaxTextSize="20sp"
+                    app:autoSizeMinTextSize="14sp"
+                    app:autoSizeStepGranularity="1.5dp"
+                    android:text="@string/gamers_is_rating"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutDisconnected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/round_menu_color"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/image_connect"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:contentDescription="@string/app_name"
+            app:lottie_rawRes="@raw/disconnect"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/disconnected"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/conect_internet"
+            android:textColor="@color/tertiary_text"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+    </LinearLayout>
+
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/ShimmerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/round_layout_color"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+            <include layout="@layout/shimmer"
+                android:layout_height="58dp"
+                android:layout_width="match_parent"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/round_layout_color"
+        android:divider="#00FFFFFF"
+        android:dividerHeight="8dp"
+        android:scrollIndicators="none"
+        android:visibility="gone"
+        android:listSelector="@drawable/gradient_stroke"
+        android:padding="8dp"
+        android:elevation="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolBar" />
+<!--    android:listSelector="@drawable/recyclerview_ripple"-->
+<!---->
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.14" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

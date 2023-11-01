@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/layout_background"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:key="def"
+
+    tools:context=".activities.Settings">
+
+
+
+
+   <PreferenceCategory
+
+       android:key="themes_category"
+       android:title="@string/themes">
+
+       <SwitchPreference
+           android:selectable="false"
+           app:icon="@drawable/ic_moon_night"
+           android:title="@string/night_mode"
+           android:key="NIGHT"
+           android:defaultValue="false"
+           android:switchTextOn="On"
+           android:switchTextOff="Off"
+           android:summaryOn="@string/night_activated"
+           android:summaryOff="@string/night_deactivated"/>
+
+
+
+   </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/general">
+
+        <ListPreference
+            android:selectable="false"
+
+            android:icon="@drawable/ic_language"
+            android:title="@string/language"
+            android:key="Language"
+            android:entries="@array/items_name"
+            android:entryValues="@array/items_value"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            app:icon="@drawable/ic_user"
+            android:title="@string/exit"
+            android:summaryOff="@string/account_activated"
+            android:summaryOn="@string/account_disabled"
+            android:key="LOG"
+            android:defaultValue="false"
+            />
+
+    </PreferenceCategory>
+
+
+
+
+
+
+
+
+</PreferenceScreen>

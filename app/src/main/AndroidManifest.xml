@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xmolnia.vicQuiz">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.VicQuiz">
+        <activity
+            android:name=".activities.GenreActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.MovieDetails"
+            android:exported="true"/>
+
+
+        <activity
+            android:name=".activities.MultiPlay2"
+            android:exported="true" />
+        <activity
+            android:name=".activities.Connection"
+            android:exported="true" />
+        <activity
+            android:name=".activities.MultiPlay"
+            android:exported="true" />
+        <activity
+            android:name=".activities.ImageQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".activities.DisneyLand2"
+            android:exported="true" />
+        <activity
+            android:name=".activities.PartTwo"
+            android:exported="true" />
+        <activity
+            android:name=".eva.fragment.Eva"
+            android:exported="true" />
+        <activity
+            android:name=".activities.ShowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.Rating"
+            android:exported="true" />
+        <activity
+            android:name=".activities.DisneyLand"
+            android:exported="true" />
+        <activity
+            android:name=".activities.ZombieMovie"
+            android:exported="true" />
+        <activity
+            android:name=".cleanarch.MarvelTest"
+            android:exported="true" />
+        <activity
+            android:name=".activities.Sign"
+            android:exported="true" />
+        <activity
+            android:name=".activities.PartOne"
+            android:exported="true" />
+        <activity
+            android:name=".activities.FreeFire"
+            android:exported="true" />
+        <activity
+            android:name=".activities.PixelMarvel"
+            android:exported="true" />
+        <activity
+            android:name=".activities.ResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.MarvelMovie"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="tron"
+                    android:path="/movie"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".cleanarch.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VicQuiz" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,724 @@
+<resources translatable="false">
+
+    <string name="app_name">Tron</string>
+
+    <string name="welcome">Добро пожаловать</string>
+
+    <string name="please_enter_your_name">Пожалуйста, введите ваше имя</string>
+
+    <string name="name">Имя</string>
+
+    <string name="start">Начать</string>
+
+    <string name="_0_10">0/10</string>
+
+    <string name="detail2">Только эксперт по вселенной Marvel наберёт 20/20. Проверим это?</string>
+
+    <string name="detail3">Пиксельные герои:15/20 набирают только сильнейшие фанаты Marvel</string>
+
+    <string name="detail4">Узнать всех персонажей Free Fire, сможет лишь лучший игрок</string>
+
+    <string name="image">image</string>
+
+    <string name="mode_night_no">Light</string>
+
+    <string name="mode_night_yes">Night</string>
+
+    <string name="mode_night_follow_system">System</string>
+
+    <string name="mode_night_auto_battery">No Batery</string>
+
+    <string name="themes">Темы</string>
+
+    <string name="night_mode">Темный режим</string>
+
+    <string name="general">Общее</string>
+
+    <string name="language">Язык</string>
+
+    <string name="night_activated">Темный режим включен</string>
+
+    <string name="night_deactivated">Темный режим выключен</string>
+
+    <string name="tests_tab">Тесты</string>
+
+    <string name="profile_tab">Профиль</string>
+
+    <string name="settings_tab">Настройки</string>
+
+    <string name="v_gamer">V-игрок</string>
+
+    <string name="OnBack">Назад</string>
+
+    <string name="submit">Потвердить</string>
+
+    <string name="question1">Чья регенирация самая быстрая?</string>
+
+    <string name="spider_man">Человек паук</string>
+
+    <string name="wolverine">Росомаха</string>
+
+    <string name="pool">Дэдпул</string>
+
+    <string name="hulk">Халк</string>
+
+    <string name="test_marvel_neon">Неоновый Марвел-Тест</string>
+
+    <string name="test_marvel_movie">Марвел-Фильмы</string>
+
+    <string name="question2">Щит Капитана Америки сделан из?</string>
+
+    <string name="vibranium">Вибраниум</string>
+
+    <string name="adamantium">Адамантий</string>
+
+    <string name="titan">Титан</string>
+
+    <string name="kriptonit">Криптонит</string>
+
+    <string name="marvel_test_question_3">Из чего состоит скилет Росомахи?</string>
+
+    <string name="marvel_test_question_4">Ностоящее имя Черной Пантеры?</string>
+
+    <string name="primat">Примат</string>
+
+    <string name="njobu">Н`Джобу</string>
+
+    <string name="tchaka">Т`чяка</string>
+
+    <string name="tchala">Т`чяла</string>
+
+    <string name="marvel_test_question_5">Как еще называют Локки? </string>
+
+    <string name="bog_lzhi">Бог лжи</string>
+
+    <string name="bog_obmana">Бог обмана</string>
+
+    <string name="black_prince">Темный принц</string>
+
+    <string name="lord_elphie">Лорд эльфов</string>
+
+    <string name="marvel_test_question_6">Имя этого персонажа? </string>
+
+    <string name="dead_pool">Dead pool</string>
+
+    <string name="deadpool">Deadpool</string>
+
+    <string name="mister_pool">Мистер Пул</string>
+
+    <string name="marvel_test_question_7">Заклятый враг Ракеты(енот)? </string>
+
+    <string name="scrool">Скрулы</string>
+
+    <string name="gidra">Гидра</string>
+
+    <string name="tanos">Танос</string>
+
+    <string name="octopusDoctor">Доктор Осминог</string>
+
+    <string name="finish">КОНЕЦ</string>
+
+    <string name="marvel_test_question_8">Как называется оружие Тора?</string>
+
+    <string name="miolner">Мьельнир</string>
+
+    <string name="god_grom">Бог Грома</string>
+
+    <string name="escalibur">Эскалибур</string>
+
+    <string name="asgard">Асгард</string>
+
+    <string name="marvel_test_question_9">Доктор Стрэндж хранитель камня?</string>
+
+    <string name="kamen_razuma">Камень Разума</string>
+
+    <string name="kamen_dushi">Камень Души</string>
+
+    <string name="kamen_time">Камень Времени</string>
+
+    <string name="kamen_power">Камень Силы</string>
+
+    <string name="marvel_test_question_10">Почему,Брюс стал Халком?</string>
+
+    <string name="gamma">Гамма лучей</string>
+
+    <string name="mutagen">Мутаген</string>
+
+    <string name="X">Проект Х</string>
+
+    <string name="experiment">Эксперимент</string>
+
+    <string name="marvel_test_question_11">Вдова пожертвовала собой ради?</string>
+
+    <string name="bruce_banner">Брюс Баннерa</string>
+
+    <string name="clinton_barton">Клинтон Бартонa</string>
+
+    <string name="nic_fiury">Ник Фьюри</string>
+
+    <string name="agent_kolson">Агент Колсонa</string>
+
+    <string name="marvel_test_question_12">Кто спас зимного солдата?</string>
+
+    <string name="red_shot">Красный Череп</string>
+
+    <string name="baron">Барон Стракер</string>
+
+    <string name="zemo">Земо</string>
+
+    <string name="marvel_test_question_13">Родная планета Таноса?</string>
+
+    <string name="cybertron">Кибертрон</string>
+
+    <string name="cripton">Криптон</string>
+
+    <string name="midgard">Мидгард</string>
+
+    <string name="marvel_test_question_14">Как еще называют Соколиного глаза?</string>
+
+    <string name="luchnik">Лучник</string>
+
+    <string name="arrow">Стрелок</string>
+
+    <string name="ronin">Ронин</string>
+
+    <string name="samurai">Самурай</string>
+
+    <string name="marvel_test_question_15">Тип способностей Ванды?</string>
+
+    <string name="magice">Магия</string>
+
+    <string name="mutation">Мутация</string>
+
+    <string name="nauka">Наука</string>
+
+    <string name="tehnology">Технология</string>
+
+    <string name="marvel_test_question_16">Какой камень вживлен в Вижна?</string>
+
+    <string name="marvel_test_question_17">Кто такой призрачный гонщик?</string>
+
+    <string name="demon">Damon</string>
+
+    <string name="angel">Ангел</string>
+
+    <string name="hranitel">Хрантитель</string>
+
+    <string name="mutant">Мутант</string>
+
+    <string name="marvel_test_question_18">Насколько может уменшаться Человек Муравей?</string>
+
+    <string name="atom">до атомов</string>
+
+    <string name="malekuls">до малекул</string>
+
+    <string name="vakums">до вакума</string>
+
+    <string name="muravev">до муравьев</string>
+
+    <string name="marvel_test_question_19">Кто создал Ультрома в комиксах?</string>
+
+    <string name="tohni_stark">Тони Старк</string>
+
+    <string name="vizhn">Вижн</string>
+
+    <string name="marvel_test_question_20">Кто такой Блэйд?</string>
+
+    <string name="vampire">Вампир</string>
+
+    <string name="day_vampire">Дневной вампир</string>
+
+    <string name="mutant_vampire">Мутант</string>
+
+    <string name="polukrovka_vampire">Наемник</string>
+
+    <string name="Default">По умолчанию</string>
+
+    <string name="marvel_movie_question">Угадай фильм по кадру</string>
+
+    <string name="muravei">Человек Муравей</string>
+
+    <string name="tor_rognarek">Тор: Рогнарек</string>
+
+    <string name="perviy_mstitel">Первый мститель</string>
+
+    <string name="black_panter">Черная пантера</string>
+
+    <string name="era_altron">Мстители: Эра Альтрона</string>
+
+    <string name="perviy_mstitel_protivostoyanie">Первый мститель: Противостояние</string>
+
+    <string name="perviy_mstitel_drugaya_voina">Первый мститель: Другая война</string>
+
+    <string name="avengers">Мстители</string>
+
+    <string name="tor_2">Тор 2: Царство тьмы</string>
+
+    <string name="tor">Тор</string>
+
+    <string name="hulk_neveroyatniy">Неворятный Халк</string>
+
+    <string name="doctor_strange">Доктор Стрэндж</string>
+
+    <string name="iron_man">Железный Человек</string>
+
+    <string name="iron_man_2">Железный человек 2</string>
+
+    <string name="iron_man_3">Железный Человек</string>
+
+    <string name="spider_man_back_home">Человек-паук: Возвращение домой</string>
+
+    <string name="galaxy_strage">Стражи Галактики</string>
+
+    <string name="avengers_voina_beskonnechnosti">Мстители: Война бесконечности</string>
+
+    <string name="galaxy_strage_2">Стражи Галактики.Часть 2</string>
+
+    <string name="your_result_is">Ваш результат - </string>
+
+    <string name="congratulations">Проздравляю!</string>
+
+    <string name="result">Результат</string>
+
+    <string name="go_next_question">К следующему вопросу</string>
+
+    <string name="test_marvel_pixel">Пиксельный Марвел-Тест</string>
+
+    <string name="capitan_marvel">Капитан Марвел</string>
+
+    <string name="muravei_and_osa">Человек-муравей и Оса</string>
+
+    <string name="alok">Алок</string>
+
+    <string name="steffie">Стеффа</string>
+
+    <string name="chronos">Кронос</string>
+
+    <string name="dasha">Даша</string>
+
+    <string name="andrew">Андрей</string>
+
+    <string name="moco">Моко</string>
+
+    <string name="paloma">Палома</string>
+
+    <string name="laura">Лаура</string>
+
+    <string name="monkey_king">Король обезьян</string>
+
+    <string name="k">K</string>
+
+    <string name="miguel">Мигель</string>
+
+    <string name="luqueta">Люкуета</string>
+
+    <string name="shiro">Широ</string>
+
+    <string name="maxim">Максим</string>
+
+    <string name="misha">Миша</string>
+
+    <string name="hayato">Хайато</string>
+
+    <string name="kelly">Келли</string>
+
+    <string name="jai">ДжаЙ</string>
+
+    <string name="wolfrahh">Волкрахх</string>
+
+    <string name="raphael">Рафаэль</string>
+
+    <string name="test_free_fire">Фрифаер-Тест</string>
+
+    <string name="test_zombies_test">Зомби-Фильмы</string>
+
+    <string name="detail5">Угадайте фильм по зомби</string>
+
+    <string name="im_legend">Я легенда</string>
+
+    <string name="monster_on_vacation">Монстры на каникулах 2</string>
+
+    <string name="warm_bodies">Тепло наших тел</string>
+
+    <string name="train_to_pusan">Поезд в Пусан</string>
+
+    <string name="santa_clarita_diet">Диета из Санты-Клариты</string>
+
+    <string name="new_era_Z">Новая Эра Z</string>
+
+    <string name="machete_kills">Мачете убивает</string>
+
+    <string name="from_dusk_to_dawn">От заката до рассвета</string>
+
+    <string name="dawn_of_the_dead">Рассвет мертвецов</string>
+
+    <string name="pet_cemetery">Кладбище домашних животных</string>
+
+    <string name="game_of_thrones">Игра прeстолов</string>
+
+    <string name="pride_prejudice_zombies">Гордость и предупреждение и зомби</string>
+
+    <string name="grind_house">Гранд-Хаус</string>
+
+    <string name="para_norman">Пара норман</string>
+
+    <string name="resident_evil">Обитель зла</string>
+
+    <string name="_28_days_later">28 дней спустя</string>
+
+    <string name="welcome_to_Zombie_land">Зомбилэнд</string>
+
+    <string name="corpse_bride">Труп невесты</string>
+
+    <string name="scouts_guide_to_the_zombie">Скауты против зомби</string>
+
+    <string name="shaun_of_the_dead">Зомби по имени Шон</string>
+
+    <string name="really_History">Реальная история</string>
+
+    <string name="caroline_in_the_country_nightmares">Каролина в старне кошмаров</string>
+
+    <string name="night_of_the_living_dead">Ночь живых мертвецов</string>
+
+    <string name="nosferatu">Носферату</string>
+
+    <string name="the_walking_dead">Ходячие мертвецы</string>
+
+    <string name="twilight">Сумерки</string>
+
+    <string name="death_becomes_her">Смерть ей к лицу</string>
+
+    <string name="ash_vs_evil_dead">Эш против зловейших мертвецов</string>
+
+    <string name="rai_and_last_dragon">Райя и последний дракон</string>
+
+    <string name="vpered">Вперед</string>
+
+    <string name="cars">Тачки </string>
+
+    <string name="cars_2">Тачки 2</string>
+
+    <string name="cars_3">Тачки 3</string>
+
+    <string name="ralf">Ральф</string>
+
+    <string name="holodnoe_serdce">Холодное сердце</string>
+
+    <string name="holodnoe_serdce_2">Холодное сердце 2</string>
+
+    <string name="toy_stories">История игрушек</string>
+
+    <string name="super_family">Супер семейка</string>
+
+    <string name="super_family_2">Супер семейука 2</string>
+
+    <string name="zoo_topia">Зверополис</string>
+
+    <string name="heroes_city">Город герове</string>
+
+    <string name="dusha">Душа</string>
+
+    <string name="mulan">Мулан</string>
+
+    <string name="astra_boy">Астрабой</string>
+
+    <string name="hrabroe_serdce">Храброе сердце</string>
+
+    <string name="disney_test">Дисней-Лэнд</string>
+
+    <string name="detail6">Попробуй отгадать топ 20 шедевров сказочной вселенной Disney Land</string>
+
+    <string name="toast_exit">Нажмите еще раз ❮ для выхода</string>
+
+    <string name="email">Эмайл</string>
+
+    <string name="password">Пароль</string>
+
+    <string name="morbius">Морбиус</string>
+
+    <string name="logan">Логан</string>
+
+    <string name="spider_into_spider_verse">Человек Паук: Через вселенные</string>
+
+    <string name="dedpul">Дэдпул</string>
+
+    <string name="x_men_apokalypse">Люди Х: Апокалипсис</string>
+
+    <string name="x_men_new_mutant">Новые Мутанты</string>
+
+    <string name="mortal_engines">Хроники Хищных Городов</string>
+
+    <string name="bloodshot">Блэдшот</string>
+
+    <string name="terminator_dark_fate">Терминатор: Темные судьбы</string>
+
+    <string name="six6_undergroud">Шестеро Вне Закона</string>
+
+    <string name="fast_hobbs_shaw">Форсаж: Хобс и Шоу</string>
+
+    <string name="godzilla_vs_kong">Годзилла против Конга</string>
+
+    <string name="bad_boys_for_life">Плохие парни навсегда</string>
+
+    <string name="avengers_infinity_War">Мстители: Война бесконечности</string>
+
+    <string name="avengers_final">Мстители: Финал</string>
+
+    <string name="wonder_woman_1984">Чудо-женщина 1984</string>
+
+    <string name="gemini">Гемини</string>
+
+    <string name="project_power">Проект Power</string>
+
+    <string name="sonic_in_movie">Сонник в кино</string>
+
+    <string name="the_call_of_the_wild">Зов предков</string>
+
+    <string name="gentelmens">Джентельмены</string>
+
+    <string name="the_old_guard">Бессмертная гвардия</string>
+
+    <string name="alita_battle_angel">Алита боевой ангел</string>
+
+    <string name="aquaman">Аквамен</string>
+
+    <string name="zack_snider_justice_league">Лига справедливости Зака Снайдера</string>
+
+    <string name="venom">Веном</string>
+
+    <string name="extraction">Тайлер Рейк: Операция по спасению</string>
+
+    <string name="hunter_monster">Охотник на монстров</string>
+
+    <string name="twenty_one_bridges">21 Мост</string>
+
+    <string name="kong_skull_island">Конг: Остров Черепа</string>
+
+    <string name="godzilla">Годзилла</string>
+
+    <string name="godzilla_king_monstres">Годзилла: Король Монстров</string>
+
+    <string name="hitmans_bodyguard">Телеохранитель Киллера</string>
+
+    <string name="hitman_wife_bodyguard">Телеохранитель жены Киллера</string>
+
+    <string name="transporter">Перевозчик</string>
+
+    <string name="mechanic">Механик</string>
+
+    <string name="suicide_squad">Отряд Самоубииц</string>
+
+    <string name="yes_man">Всегда говори Да</string>
+
+    <string name="bruce_almighty">Брюс Всемогущий</string>
+
+    <string name="detail7">Истинный киноман запросто угадaет все трендовые фильмы.</string>
+
+    <string name="trend1_test">Трендовые Фильмы - Часть 1</string>
+
+    <string name="joker">Джокер</string>
+
+    <string name="love_and_monstries">Любовь и Монстры</string>
+
+    <string name="last_warrior">Последний богатырь</string>
+
+    <string name="tenet">Довод</string>
+
+    <string name="bumblebee">Бамблби</string>
+
+    <string name="greenland">Грендландия</string>
+
+    <string name="platform">Платформа</string>
+
+    <string name="how_to_train_your_dragon_3">Как приручить дракона 3</string>
+
+    <string name="outside_the_ware">Безопасная зона</string>
+
+    <string name="ford_vs_ferrari">Форд против Феррари</string>
+
+    <string name="countdown">Обратный отсчет</string>
+
+    <string name="boss_level">День Курка</string>
+
+    <string name="aladin">Аладдин</string>
+
+    <string name="riddick">Риддик</string>
+
+    <string name="furious_7">Форсаж 7</string>
+
+    <string name="transformers">Трансформеры</string>
+
+    <string name="transformers_2">Трансформеры: Месть Падших</string>
+
+    <string name="jumanji">Джуманджи:Новый уровень</string>
+
+    <string name="john_wick">Джон Уик 3</string>
+
+    <string name="the_matrix">Матрица 2</string>
+
+    <string name="maleficenta">Малефисента: Владычица Тьмы</string>
+
+    <string name="shazam">Шазам</string>
+
+    <string name="trend2_test">Трендовые Фильмы- Часть 2</string>
+
+    <string name="with_internet">С интернетом</string>
+
+    <string name="without_internet">Без интернета</string>
+
+    <string name="sign_in_with_google">Войти с помощью Google</string>
+
+    <string name="rapunzel">Рапунцель</string>
+
+    <string name="moana">Моана</string>
+
+    <string name="brave">Храбрая сердцем</string>
+
+    <string name="walle">ВАЛЛИ-И</string>
+
+    <string name="ratatouille">Рататуй</string>
+
+    <string name="alica_zazerkale">Алиса в Зазеркалье</string>
+
+    <string name="monster_corparation">Корпора́ция мо́нстров</string>
+
+    <string name="hotel_transelvania">Отель Трансильвания</string>
+
+    <string name="inside_ut">Головоломка</string>
+
+    <string name="ralph_vs_internet">Ральф против интернета</string>
+
+    <string name="up0">Ввеpх</string>
+
+    <string name="aivan">Айван, единственный и неповторимый</string>
+
+    <string name="aremis_faul">Артемис Фаул</string>
+
+    <string name="book_jungli">Маугли</string>
+
+    <string name="chumovaya_piatnica">Чумовая пятница</string>
+
+    <string name="idel_toy">Идеальная игрушка</string>
+
+    <string name="krasavics_and_chudo">Красавица и чудовище</string>
+
+    <string name="ledi_brodiaga">Леди и Бродяга</string>
+
+    <string name="nasledniki">Наследники</string>
+
+    <string name="pit_and_dragon">Пит и его дракон</string>
+
+    <string name="piterpen">Питер Пэн</string>
+
+    <string name="planeta_spkrovish">Планета сокровищ</string>
+
+    <string name="poiskah_dorri">В поисках Дори</string>
+
+    <string name="poiskah_nemu">В поисках Немо</string>
+
+    <string name="shaste_eto">Cчастье — это</string>
+
+    <string name="shelkunchik_i_4_korolevstv">Щелкунчик и четыре королевства</string>
+
+    <string name="snejnie_psi">Снежные псы</string>
+
+    <string name="taina_koko">Тайна Коко</string>
+
+    <string name="zolushka">Золушка</string>
+
+    <string name="dnevniki_princessi">Дневники принцессы</string>
+
+    <string name="disney_test2">Дисней - Лэнд 2</string>
+
+    <string name="exit">Выйти</string>
+
+    <string name="account_activated">аккаунт активирован</string>
+
+    <string name="account_disabled">аккаунт дизактивирован</string>
+
+    <string name="detail1">Насколько хорошо можешь угадать персонажаeй Marvel, сквозь неона?</string>
+
+    <string name="detail8">Выберите фильм, а мы попытаемся угадать, кто вы- мужчина или женщина.</string>
+
+    <string name="imagequiz_test">Гадалка - Тест</string>
+
+    <string name="man_info">Вы выбирали в основном те фильмы которые получали от мужчин более высокие оценки, чем от женщин.</string>
+
+    <string name="girl_info">Вы выбирали в основном те фильмы которые получали от женщин более высокие оценки, чем от мужчин.</string>
+
+    <string name="man">Мужчина</string>
+
+    <string name="forget_password">Забыли Пароль? </string>
+
+    <string name="sign_up">Зарегистрироваться</string>
+
+    <string name="btn_submit">Потвердить</string>
+
+    <string name="girl">Женщина</string>
+
+    <string name="continue_sign">Продолжить</string>
+
+    <string name="have_account_question">Уже есть аккаунт?</string>
+
+    <string name="havent_account_question">Ещё нет аккаунта?</string>
+
+    <string name="sign_in">Войти</string>
+
+    <string name="sign_up_rules">Пожалуйста, введите ваше имя,email, и придумайте себе пaроль</string>
+
+    <string name="sign_up_title">Регистрация</string>
+
+    <string name="sign_in_title">Вход</string>
+
+    <string name="sign_in_rules">Пожалуйста, введите ваш email и пароль для входа в аккаунт</string>
+
+    <string name="sign_forget_title">Cброс пароля</string>
+
+    <string name="sign_forget_rules">Потвердите ваш email, и проверьте вашу почту</string>
+
+    <string name="wrong_pol">Не определено</string>
+
+    <string name="wrong_answer">Вы выбирали в основном те фильмы которые получали более высокие оценки, как от женщин так и от мужчин. По этому мы не смогли определить</string>
+
+    <string name="rating">Рейтинг</string>
+
+    <string name="gamers_is_rating">Рейтинг Игроков</string>
+
+    <string name="password_error">Пароль должен быть не меньше 6 символов</string>
+
+    <string name="email_error">Пожалуйста введите ваш email</string>
+
+    <string name="onCanceled">У вас нет доступа к хранилище, пожалуйста пройдите регистрацию!</string>
+
+    <string name="disconnected">ОТСОЕДИНЕН</string>
+
+    <string name="conect_internet">Подключитесь к интернету что бы получить доступ к этой части приложения.</string>
+
+    <string name="succesful_sign_up">Регистрация прошла успешно</string>
+
+    <string name="failded_sign_in">Ошибка при входе</string>
+
+    <string name="user_is_null">Пользователь не найден..</string>
+
+    <string name="no_connection">Нет подключения к интернету!</string>
+
+    <string name="movie_tab">Фильмы</string>
+
+
+    <string name="movie_details" translatable="false">Жизнь здорово потрепала нервишки Майкла Брайса, так что
+        с карьерой телохранителя он решил завязать. Психотерапевт посоветовал ему отправиться на тихий курорт, вооружившись лишь книжкой и плейлистом расслабляющей музыки. Но и здесь его находит самая безумная в мире парочка: киллер мирового уровня и настоящий магнит неприятностей Дариус Кинкейд и его супруга Соня — буйная дамочка не робкого десятка. Преступный синдикат устроил на них охоту, и Майклу, при всем желании остаться в стороне, придется вернуться к старому ремеслу и снова стать телохранителем. На этот раз — жены киллера!</string>
+
+
+    <string name="language_icon" translatable="false">M11.99,2C6.47,2 2,6.48 2,12s4.47,10 9.99,10C17.52,22 22,17.52 22,12S17.52,2 11.99,2zM18.92,8h-2.95c-0.32,-1.25 -0.78,-2.45 -1.38,-3.56 1.84,0.63 3.37,1.91 4.33,3.56zM12,4.04c0.83,1.2 1.48,2.53 1.91,3.96h-3.82c0.43,-1.43 1.08,-2.76 1.91,-3.96zM4.26,14C4.1,13.36 4,12.69 4,12s0.1,-1.36 0.26,-2h3.38c-0.08,0.66 -0.14,1.32 -0.14,2 0,0.68 0.06,1.34 0.14,2L4.26,14zM5.08,16h2.95c0.32,1.25 0.78,2.45 1.38,3.56 -1.84,-0.63 -3.37,-1.9 -4.33,-3.56zM8.03,8L5.08,8c0.96,-1.66 2.49,-2.93 4.33,-3.56C8.81,5.55 8.35,6.75 8.03,8zM12,19.96c-0.83,-1.2 -1.48,-2.53 -1.91,-3.96h3.82c-0.43,1.43 -1.08,2.76 -1.91,3.96zM14.34,14L9.66,14c-0.09,-0.66 -0.16,-1.32 -0.16,-2 0,-0.68 0.07,-1.35 0.16,-2h4.68c0.09,0.65 0.16,1.32 0.16,2 0,0.68 -0.07,1.34 -0.16,2zM14.59,19.56c0.6,-1.11 1.06,-2.31 1.38,-3.56h2.95c-0.96,1.65 -2.49,2.93 -4.33,3.56zM16.36,14c0.08,-0.66 0.14,-1.32 0.14,-2 0,-0.68 -0.06,-1.34 -0.14,-2h3.38c0.16,0.64 0.26,1.31 0.26,2s-0.1,1.36 -0.26,2h-3.38z</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="option_one">option one</string>
+    <string name="option_two">option two</string>
+    <string name="option_three">option three</string>
+    <string name="option_four">option four</string>
+    <string name="option_next">option next</string>
+    <string name="genre_content_description">Movie Genre Image</string>
+    <string name="movie_banner_content_description">Movie Banner</string>
+
+
+</resources>
